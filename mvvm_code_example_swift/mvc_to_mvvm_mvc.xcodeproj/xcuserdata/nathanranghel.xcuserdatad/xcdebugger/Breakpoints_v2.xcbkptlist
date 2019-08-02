@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mvc_to_mvvm_mvcTests/mvc_to_mvvm_mvcTests.swift"
+            timestampString = "586384536.269452"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "testMobileViewModelWithRequest()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mvc_to_mvvm_mvcTests/mvc_to_mvvm_mvcTests.swift"
+            timestampString = "586384536.269842"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "testMobileViewModelWithRequest()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;mvc_to_mvvm_mvc.MobilePlataform&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in mvc_to_mvvm_mvcTests.mvc_to_mvvm_mvcTests.testMobileViewModelWithRequest() -&gt; ()"
+                  moduleName = "mvc_to_mvvm_mvcTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nathanranghel/Documents/couse_sankhya/mvc_to_mvvm_mvc/mvc_to_mvvm_mvcTests/mvc_to_mvvm_mvcTests.swift"
+                  timestampString = "586384511.9301471"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "588">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (mvc_to_mvvm_mvc.MobilePlataform) -&gt; mvc_to_mvvm_mvc.MobilePlataformModel in closure #1 (Swift.Optional&lt;Swift.Array&lt;mvc_to_mvvm_mvc.MobilePlataform&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in mvc_to_mvvm_mvcTests.mvc_to_mvvm_mvcTests.testMobileViewModelWithRequest() -&gt; ()"
+                  moduleName = "mvc_to_mvvm_mvcTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nathanranghel/Documents/couse_sankhya/mvc_to_mvvm_mvc/mvc_to_mvvm_mvcTests/mvc_to_mvvm_mvcTests.swift"
+                  timestampString = "586384511.9322309"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "38">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mvc_to_mvvm_mvcTests/mvc_to_mvvm_mvcTests.swift"
+            timestampString = "586384536.270103"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "testMobileViewModelWithRequest()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
