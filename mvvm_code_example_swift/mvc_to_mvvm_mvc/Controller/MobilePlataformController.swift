@@ -56,7 +56,7 @@ class MobilePlataformController: UITableViewController {
     }
     
     fileprivate func setupNavBar() {
-        navigationItem.title = "Courses"
+        navigationItem.title = "Plataform"
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationController?.navigationBar.backgroundColor = .yellow
         navigationController?.navigationBar.isTranslucent = false
