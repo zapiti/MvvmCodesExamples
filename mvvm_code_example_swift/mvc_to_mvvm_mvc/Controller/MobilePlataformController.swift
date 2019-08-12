@@ -28,8 +28,7 @@ class MobilePlataformController: UITableViewController {
                 print("Failed to fetch courses:", err)
                 return
             }
-            
-            self.courseViewModels = courses?.map({return MobilePlataformViewModel(course: $0)}) ?? []
+            self.courseViewModels = courses?.map({return MobilePlataformViewModel(platform: $0)}) ?? []
             self.tableView.reloadData()
         }
     }

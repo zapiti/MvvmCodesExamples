@@ -17,14 +17,14 @@ struct MobilePlataformViewModel {
     let accessoryType: UITableViewCell.AccessoryType
     
     // Dependency Injection (DI)
-    init(course: MobilePlataform) {
-        self.name = course.name
+    init(platform: MobilePlataform) {
+        self.name = platform.name
         
-        if course.programers > 35 {
-            detailTextString = "Os melhores com Programadores: \(course.programers)"
+        if platform.programers > 35 {
+            detailTextString = "Os melhores com Programadores: \(platform.programers)"
             accessoryType = .detailDisclosureButton
         } else {
-            detailTextString = "Programadores: \(course.programers)"
+            detailTextString = "Programadores: \(platform.programers)"
             accessoryType = .none
         }
     }

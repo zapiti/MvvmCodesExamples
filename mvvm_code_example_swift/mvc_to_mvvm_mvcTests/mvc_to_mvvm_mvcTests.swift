@@ -23,7 +23,7 @@ class mvc_to_mvvm_mvcTests: XCTestCase {
     
     func testMobileViewModel() {
         let course = MobilePlataform(id: 0, name: "mobile", programers: 10)
-        let courseViewModel = MobilePlataformViewModel(course: course)
+        let courseViewModel = MobilePlataformViewModel(platform: course)
         
         // what is it that we want to test?
         XCTAssertEqual(course.name, courseViewModel.name)
@@ -38,7 +38,7 @@ class mvc_to_mvvm_mvcTests: XCTestCase {
                 print("Failed to fetch courses:", err)
                 return
             }
-           mobilePlataformViewModels = courses?.map({return MobilePlataformViewModel(course: $0)}) ?? []
+           mobilePlataformViewModels = courses?.map({return MobilePlataformViewModel(platform: $0)}) ?? []
            XCTAssertEqual("Os melhores com Programadores: 100000",mobilePlataformViewModels.first?.detailTextString)
         }
       
@@ -46,7 +46,7 @@ class mvc_to_mvvm_mvcTests: XCTestCase {
     }
     func testMobileViewModelLessonsOverThreshold() {
         let course = MobilePlataform(id: 0, name: "mobile", programers: 100)
-        let courseViewModel = MobilePlataformViewModel(course: course)
+        let courseViewModel = MobilePlataformViewModel(platform: course)
         
         XCTAssertEqual("Os melhores com Programadores: \(course.programers)", courseViewModel.detailTextString)
         XCTAssertEqual(.detailDisclosureButton, courseViewModel.accessoryType)
